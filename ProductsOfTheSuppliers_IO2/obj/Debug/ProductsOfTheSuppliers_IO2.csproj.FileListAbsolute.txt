@@ -4,3 +4,9 @@ D:\Nitin\Practice\ProductsOfTheSuppliers_IO2\bin\Debug\ProductsOfTheSuppliers_IO
 D:\Nitin\Practice\ProductsOfTheSuppliers_IO2\obj\Debug\ProductsOfTheSuppliers_IO2.csprojResolveAssemblyReference.cache
 D:\Nitin\Practice\ProductsOfTheSuppliers_IO2\obj\Debug\ProductsOfTheSuppliers_IO2.exe
 D:\Nitin\Practice\ProductsOfTheSuppliers_IO2\obj\Debug\ProductsOfTheSuppliers_IO2.pdb
+D:\MyGit\ProductsOfTheSuppliers_IO2\bin\Debug\ProductsOfTheSuppliers_IO2.exe.config
+D:\MyGit\ProductsOfTheSuppliers_IO2\obj\Debug\ProductsOfTheSuppliers_IO2.exe
+D:\MyGit\ProductsOfTheSuppliers_IO2\obj\Debug\ProductsOfTheSuppliers_IO2.pdb
+D:\MyGit\ProductsOfTheSuppliers_IO2\bin\Debug\ProductsOfTheSuppliers_IO2.exe
+D:\MyGit\ProductsOfTheSuppliers_IO2\bin\Debug\ProductsOfTheSuppliers_IO2.pdb
+D:\MyGit\ProductsOfTheSuppliers_IO2\obj\Debug\ProductsOfTheSuppliers_IO2.csprojResolveAssemblyReference.cache

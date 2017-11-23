@@ -31,6 +31,9 @@ namespace ProductsOfTheSuppliers_IO2
                 
 
             }
+
+            var groupedList = suppliers.GroupBy(x => x.Name).Select(y => y.ToList()).ToList();
+
         }
     }
 }
