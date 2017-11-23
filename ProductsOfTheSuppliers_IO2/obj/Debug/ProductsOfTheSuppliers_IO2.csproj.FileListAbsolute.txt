@@ -1,0 +1,6 @@
+D:\Nitin\Practice\ProductsOfTheSuppliers_IO2\bin\Debug\ProductsOfTheSuppliers_IO2.exe.config
+D:\Nitin\Practice\ProductsOfTheSuppliers_IO2\bin\Debug\ProductsOfTheSuppliers_IO2.exe
+D:\Nitin\Practice\ProductsOfTheSuppliers_IO2\bin\Debug\ProductsOfTheSuppliers_IO2.pdb
+D:\Nitin\Practice\ProductsOfTheSuppliers_IO2\obj\Debug\ProductsOfTheSuppliers_IO2.csprojResolveAssemblyReference.cache
+D:\Nitin\Practice\ProductsOfTheSuppliers_IO2\obj\Debug\ProductsOfTheSuppliers_IO2.exe
+D:\Nitin\Practice\ProductsOfTheSuppliers_IO2\obj\Debug\ProductsOfTheSuppliers_IO2.pdb
