@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace ProductsOfTheSuppliers_IO2
 {
@@ -33,6 +35,31 @@ namespace ProductsOfTheSuppliers_IO2
             }
 
             var groupedList = suppliers.GroupBy(x => x.Name).Select(y => y.ToList()).ToList();
+
+            using (StreamWriter sw = new StreamWriter("output.csv"))
+            {
+                var total = groupedList.Count;
+                for (int i = 0; i < total; i++)
+                {
+                    var g = groupedList[i].Count;
+                    if (g > 1)
+                    {
+                        sw.WriteLine("|" + groupedList[i][0].Name + "|" + groupedList[i][0].Address + "|");
+                        for (int j = 0; j < g; j++)
+                        {
+                            sw.WriteLine(groupedList[i][g].AssetList[0].Name + "," + groupedList[i][g].AssetList[0].Serial + ","+ groupedList[i][g].AssetList[0].PurchaseDate +","+ groupedList[i][g].AssetList[0].Cost);
+                        }
+                        
+                    }
+                    else
+                    {
+                        sw.WriteLine("|" + groupedList[i][0].Name + "|" + groupedList[i][0].Address + "|");
+                       
+                       sw.WriteLine(groupedList[i][0].AssetList[0].Name + "," + groupedList[i][0].AssetList[0].Serial + "," + groupedList[i][0].AssetList[0].PurchaseDate + "," + groupedList[i][0].AssetList[0].Cost);
+                        
+                    }
+                }
+            }
 
         }
     }
